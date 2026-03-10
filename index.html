@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Inicío</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul> 
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="./img/Lucas.png" alt="foto de Lucas Kaoru" class="foto-perfil">
+        <h1>Lucas Kaoru</h1>
+        <p class="cabecalho-sub-titulo">Programador Back-End</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Meu nome é Lucas Kaoru Nohara Pereira e sou estudante de Engenharia de Software na FIAP, com formação técnica em Desenvolvimento de Sistemas pela ETEC.
+
+                Tenho grande interesse em desenvolvimento Back-end, principalmente utilizando JavaScript e Node.js. Gosto de entender como os sistemas funcionam por trás das interfaces e de desenvolver soluções que conectam aplicações, APIs e bancos de dados. Também possuo conhecimentos em MySQL, HTML e CSS, que me ajudam a compreender o desenvolvimento web de forma mais completa.
+
+                Estou sempre buscando evoluir através de estudos e projetos práticos, aprimorando minhas habilidades e explorando novas tecnologias. Meu objetivo é crescer como desenvolvedor, adquirir experiência no mercado e, no futuro, me tornar um Desenvolvedor Full Stack.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="./img/Projeto1.png" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projetos">
+                    <h3 class="info-projetos">PINGO</h3>
+                    <p class="paragrafo-projetos">Gerenciamento de locação de quadras privadas e divulgação de quadras públicas, uma plataforma que melhora o seu relacionamento com os clientes facilita a gestão dos horários da sua quadra e promove espaços públicos para incentivar a prática de esportes na sua região.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulos">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input class="campo-form" placeholder="Nome" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form" id="btn">Enviar Via WhatsApp</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
