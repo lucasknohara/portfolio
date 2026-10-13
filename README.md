@@ -1,49 +1,76 @@
-<<<<<<< HEAD
-# Portfólio — Lucas Kaoru
+# Olá, eu sou Lucas Kaoru! 👋
 
-Site pessoal responsivo feito com HTML, CSS e JavaScript puro, com foco em apresentar projetos, tecnologias, formação e contato para oportunidades de estágio em desenvolvimento de software.
+Sou estudante de **Engenharia de Software na FIAP** e técnico em **Desenvolvimento de Sistemas pela ETEC Paulista**. Estou construindo minha carreira em desenvolvimento de software, com foco principal em **Back-end com Node.js** e evolução para **Full Stack**.
 
-## Como abrir
+Gosto de transformar ideias em aplicações funcionais e entender como as coisas funcionam por trás da interface: rotas, APIs REST, regras de negócio, organização do código e banco de dados. Tenho desenvolvido projetos acadêmicos e pessoais para praticar esses conceitos, aprender com os erros e evoluir a cada implementação.
 
-1. Extraia a pasta do arquivo ZIP.
-2. Abra `index.html` no navegador. Para desenvolver, recomendo usar a extensão Live Server no VS Code.
-3. O currículo em PDF já está em `assets/Lucas-Kaoru-Curriculo.pdf`.
+Atualmente, estou em busca de uma oportunidade de **estágio em desenvolvimento de software**, onde possa contribuir, aprender com outros desenvolvedores e ganhar experiência trabalhando em projetos reais.
 
-## Publicar no GitHub Pages
+## 🧰 Tecnologias e ferramentas
 
-1. Crie um repositório público no GitHub (ou use o repositório `portfolio` existente).
-2. Envie o conteúdo desta pasta para a raiz do repositório, mantendo `index.html`, `css/`, `js/` e `assets/`.
-3. No GitHub, abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**, a branch `main` e a pasta `/ (root)`.
-5. Salve e espere o GitHub Pages publicar o site.
+- **Back-end:** Node.js, Express, APIs REST, CRUD e organização em camadas (Controller/Service/Model).
+- **Banco de dados:** MySQL, SQL, modelagem relacional e consultas com JOIN; conhecimentos iniciais de MongoDB/Mongoose.
+- **Front-end:** JavaScript, React, HTML, CSS, Vite, Tailwind CSS, Fetch API e localStorage.
+- **Ferramentas e fundamentos:** Git, GitHub, Insomnia, VS Code, JSON, HTTP/HTTPS, lógica de programação e fundamentos de Python.
 
-## Personalização rápida
+## 🚀 Alguns projetos
 
-- **Nome, texto e projetos:** edite `index.html`.
-- **Cores, espaçamento e responsividade:** edite `css/styles.css`. As cores principais ficam nas variáveis de `:root` no início do arquivo.
-- **Interações:** edite `js/app.js`.
-- **Currículo:** substitua o PDF em `assets/` e mantenha o nome `Lucas-Kaoru-Curriculo.pdf`, ou atualize o link no HTML.
+### [PINGO — Sistema de Quadras](https://github.com/lucasknohara/PINGO)
+Projeto acadêmico com uma API REST para gerenciamento de quadras e agendamentos. Trabalhei com rotas, controllers, models, regras de negócio e integração com MySQL.
 
-## O que já está incluído
+**Tecnologias:** Node.js, Express, MySQL.
 
-- Layout responsivo para desktop e celular.
-- Tema escuro/claro.
-- Animação de entrada dos blocos e partículas de fundo.
-- Navegação mobile e destaque da seção atual.
-- Prévia visual dos projetos sem precisar baixar imagens externas.
-- Links para GitHub, LinkedIn, aplicações publicadas e e-mail.
-- Botão para baixar currículo e copiar o e-mail.
-- Respeito à preferência do sistema por movimento reduzido.
+### [Biblioteca API](https://github.com/lucasknohara/Biblioteca)
+Projeto pessoal em desenvolvimento para consulta de livros e controle de empréstimos e devoluções. É onde continuo praticando validações, modelagem relacional e separação de responsabilidades.
 
-## Projetos apresentados
+**Tecnologias:** Node.js, Express, MySQL.
 
-Os textos foram resumidos a partir do currículo enviado. A lista de projetos e seus links pode ser ajustada em `index.html` sempre que os repositórios evoluírem.
+### [EcoTrend — E-commerce de Ecobags](https://github.com/lucasknohara/Ecomerce)
+Projeto front-end com catálogo, filtros por categoria e preço, carrinho salvo no navegador e checkout com validação.
 
-## Referências de design consultadas
+**Tecnologias:** React, JavaScript, Vite, localStorage.
 
-O visual usa ideias recorrentes em portfólios de desenvolvimento — hierarquia tipográfica forte, navegação curta, apresentação direta de projetos, tema alternável e movimento sutil — sem copiar integralmente um site específico. Referências: 
+### [StudyLens / SEP](https://sep-rose.vercel.app/)
+Protótipo web acadêmico com telas responsivas para apresentar uma proposta de melhoria da segurança escolar. Também é possível consultar o [código no GitHub](https://github.com/lucasknohara/SEP).
 
-- [Dave Donnelly — Modern Developer Portfolio](https://www.davedonnelly.dev/projects/portfolio-2025)
-- [Web Portfolios — Best Developer Portfolio Websites](https://www.webportfolios.dev/blog/best-developer-portfolio-websites)
-- [DEV PORTFOLIOS — galeria de portfólios](https://www.devportfolios.dev/)
-=======
+**Tecnologias:** React, JavaScript, localStorage.
+
+## 🎓 Formação
+
+- **FIAP** — Bacharelado em Engenharia de Software, 2026–2029 (em andamento).
+- **ETEC Paulista** — Técnico em Desenvolvimento de Sistemas, concluído em 2025.
+
+## 📫 Vamos conversar?
+
+- **LinkedIn:** [linkedin.com/in/lucas-kaoru](https://www.linkedin.com/in/lucas-kaoru)
+- **GitHub:** [github.com/lucasknohara](https://github.com/lucasknohara)
+- **E-mail:** [lucasnohara51@gmail.com](mailto:lucasnohara51@gmail.com)
+- **Portfólio:** [lucasknohara.github.io/portfolio](https://lucasknohara.github.io/portfolio)
+
+---
+
+## Sobre este repositório
+
+Este repositório contém meu portfólio pessoal, desenvolvido com **HTML, CSS e JavaScript**, sem framework de interface. O site reúne informações sobre mim, meus projetos, tecnologias e formas de contato.
+
+### Como executar localmente
+
+1. Baixe ou clone este repositório.
+2. Abra a pasta do projeto no VS Code.
+3. Abra o `index.html` no navegador. Para desenvolvimento, você também pode usar a extensão Live Server.
+
+### Publicar com GitHub Pages
+
+1. Envie os arquivos do projeto para a raiz de um repositório público no GitHub.
+2. Acesse **Settings → Pages**.
+3. Em **Build and deployment**, escolha **Deploy from a branch**, selecione a branch `main` e a pasta `/ (root)`.
+4. Salve e aguarde a publicação.
+
+### Estrutura do projeto
+
+- `index.html` — conteúdo e estrutura das seções.
+- `css/styles.css` — estilos, cores, animações e responsividade.
+- `js/app.js` — interações da página.
+- `assets/` — imagens dos projetos, favicon e currículo em PDF.
+
+O portfólio continua em evolução junto com meus estudos e projetos.
