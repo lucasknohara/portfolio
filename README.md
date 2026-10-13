@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfólio — Lucas Kaoru
 
 Site pessoal responsivo feito com HTML, CSS e JavaScript puro, com foco em apresentar projetos, tecnologias, formação e contato para oportunidades de estágio em desenvolvimento de software.
@@ -45,3 +46,4 @@ O visual usa ideias recorrentes em portfólios de desenvolvimento — hierarquia
 - [Dave Donnelly — Modern Developer Portfolio](https://www.davedonnelly.dev/projects/portfolio-2025)
 - [Web Portfolios — Best Developer Portfolio Websites](https://www.webportfolios.dev/blog/best-developer-portfolio-websites)
 - [DEV PORTFOLIOS — galeria de portfólios](https://www.devportfolios.dev/)
+=======
