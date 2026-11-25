@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b0d0c">
-  <meta name="description" content="Portfólio de Lucas Kaoru, estudante de Engenharia de Software na FIAP com foco em Back-end Node.js, APIs REST e desenvolvimento Full Stack.">
-  <meta property="og:title" content="Lucas Kaoru — Desenvolvedor em formação">
-  <meta property="og:description" content="Projetos, tecnologias e trajetória em desenvolvimento de software.">
+  <meta name="description" content="Portfólio de Lucas Kaoru, estudante de Engenharia de Software com foco em Back-end Node.js, Express, MySQL e APIs REST. Conheça projetos como TaskFlow e RedePratos.">
+  <meta property="og:title" content="Lucas Kaoru — Estágio Back-end Node.js">
+  <meta property="og:description" content="Projetos pessoais e acadêmicos em Back-end com Node.js, Express, MySQL e desenvolvimento Full Stack.">
   <meta property="og:type" content="website">
   <title>Lucas Kaoru — Desenvolvedor Back-end</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
         <div class="availability"><span class="status-dot"></span> ABERTO A OPORTUNIDADES DE ESTÁGIO</div>
         <p class="eyebrow hero-kicker">DESENVOLVIMENTO DE SOFTWARE · SÃO PAULO, SP</p>
         <h1 id="hero-title">Construindo ideias<br>que <span class="headline-highlight">funcionam</span><span class="period">.</span></h1>
-        <p class="hero-description">Olá, eu sou <strong>Lucas Kaoru</strong>. Desenvolvedor em formação, focado em criar APIs, resolver problemas de negócio e construir aplicações web úteis.</p>
+        <p class="hero-description">Olá, eu sou <strong>Lucas Kaoru</strong>. Estudante de Engenharia de Software e desenvolvedor em formação, com foco em Back-end com Node.js, APIs REST e aplicações web conectadas a bancos de dados.</p>
         <div class="role-line"><span class="role-label">FOCO ATUAL</span><span class="role-value" id="role-value">Back-end com Node.js</span><span class="role-caret"></span></div>
         <div class="hero-actions">
           <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↓</span></a>
@@ -87,8 +87,8 @@
     <section class="ticker-section" aria-label="Tecnologias principais">
       <div class="ticker-label">FERRAMENTAS DO DIA A DIA</div>
       <div class="ticker-clip"><div class="ticker-track">
-        <span>Node.js</span><b>✳</b><span>Express</span><b>✳</b><span>JavaScript</span><b>✳</b><span>MySQL</span><b>✳</b><span>React</span><b>✳</b><span>REST APIs</span><b>✳</b><span>Git & GitHub</span><b>✳</b>
-        <span>Node.js</span><b>✳</b><span>Express</span><b>✳</b><span>JavaScript</span><b>✳</b><span>MySQL</span><b>✳</b><span>React</span><b>✳</b><span>REST APIs</span><b>✳</b><span>Git & GitHub</span><b>✳</b>
+        <span>Node.js</span><b>✳</b><span>Express</span><b>✳</b><span>JavaScript</span><b>✳</b><span>MySQL</span><b>✳</b><span>React</span><b>✳</b><span>REST APIs</span><b>✳</b><span>JWT</span><b>✳</b><span>Git & GitHub</span><b>✳</b>
+        <span>Node.js</span><b>✳</b><span>Express</span><b>✳</b><span>JavaScript</span><b>✳</b><span>MySQL</span><b>✳</b><span>React</span><b>✳</b><span>REST APIs</span><b>✳</b><span>JWT</span><b>✳</b><span>Git & GitHub</span><b>✳</b>
       </div></div>
     </section>
 
@@ -119,16 +119,53 @@
         <div class="section-heading section-heading-row reveal"><div><p class="eyebrow"><span>02</span> / PROJETOS SELECIONADOS</p><h2>Feitos para <span>aprender.</span><br>Construídos para funcionar.</h2></div><p class="heading-note">Projetos acadêmicos e pessoais. Cada um é uma oportunidade de aprender algo novo e melhorar o que já sei.</p></div>
         <div class="projects-grid">
           <article class="project-card project-featured reveal">
-            <div class="project-visual visual-pingo">
-              <span class="preview-label">IDENTIDADE DO PROJETO</span>
-              <img src="img/pingo.png" alt="Logo do projeto PINGO, sistema de quadras">
+            <div class="project-visual visual-taskflow">
+              <span class="preview-label">PRÉVIA ILUSTRATIVA DO TASKFLOW</span>
+              <div class="taskflow-preview" aria-label="Representação ilustrativa do painel Kanban do TaskFlow">
+                <div class="tf-topbar"><span class="tf-brand">taskflow<span>.</span></span><span class="tf-workspace-label">Meu espaço</span><span class="tf-avatar">LK</span></div>
+                <div class="tf-layout">
+                  <aside class="tf-sidebar"><small>WORKSPACE</small><span class="tf-nav-active">▦ Quadros</span><span>◷ Minhas tarefas</span><span>⚙ Configurações</span></aside>
+                  <div class="tf-board">
+                    <div class="tf-board-heading"><div><small>MEU WORKSPACE / FACULDADE</small><strong>Organização da semana</strong></div><span>+ Nova tarefa</span></div>
+                    <div class="tf-columns">
+                      <div class="tf-column"><b><i class="tf-dot tf-dot-gray"></i> A fazer <small>02</small></b><div class="tf-task"><strong>Revisar SQL</strong><small>Estudos · Hoje</small></div><div class="tf-task"><strong>Finalizar atividade</strong><small>FIAP · Amanhã</small></div></div>
+                      <div class="tf-column"><b><i class="tf-dot tf-dot-yellow"></i> Em andamento <small>01</small></b><div class="tf-task"><strong>Implementar API</strong><small>Back-end · Hoje</small></div></div>
+                      <div class="tf-column"><b><i class="tf-dot tf-dot-green"></i> Concluído <small>01</small></b><div class="tf-task tf-task-done"><strong>Organizar tarefas</strong><small>Finalizada</small></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="project-info">
-              <div class="project-meta"><span>01 — PROJETO ACADÊMICO</span><span class="project-status"><i></i> Projeto desenvolvido</span></div>
-              <h3>PINGO <span>— Sistema de Quadras</span></h3>
-              <p>API REST para gerenciamento de quadras e agendamentos, com rotas, controllers, models, regras de negócio e integração com MySQL.</p>
-              <div class="tag-list"><span>Node.js</span><span>Express</span><span>MySQL</span><span>API REST</span></div>
-              <div class="project-links"><a href="https://github.com/lucasknohara/PINGO" target="_blank" rel="noreferrer">Ver código no GitHub <span>↗</span></a><span class="project-arrow" aria-hidden="true">↗</span></div>
+              <div class="project-meta"><span>01 — PROJETO PESSOAL · FULL STACK</span><span class="project-status"><i></i> MVP desenvolvido</span></div>
+              <h3>TaskFlow <span>— Gerenciador Kanban de tarefas</span></h3>
+              <p>Aplicação criada para organizar tarefas da faculdade e do dia a dia. Desenvolvi a API REST com autenticação JWT, rotas protegidas e operações CRUD para gerenciamento de quadros e colunas, integrada ao MySQL.</p>
+              <div class="tag-list"><span>Node.js</span><span>Express</span><span>MySQL</span><span>JWT</span><span>React</span></div>
+              <div class="project-links"><a href="https://github.com/lucasknohara/taskflow" target="_blank" rel="noreferrer">Ver código no GitHub <span>↗</span></a><span class="project-arrow" aria-hidden="true">↗</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-redepratos">
+              <span class="preview-label">PRÉVIA ILUSTRATIVA DA PLATAFORMA</span>
+              <div class="redepratos-preview" aria-label="Representação ilustrativa do painel do RedePratos">
+                <div class="rp-topbar"><span class="rp-brand"><b>rp</b> RedePratos</span><span class="rp-user">Painel da instituição <i>●</i></span></div>
+                <div class="rp-layout">
+                  <aside class="rp-sidebar"><small>MENU</small><b>⌂ &nbsp; Visão geral</b><span>▤ &nbsp; Doações</span><span>♡ &nbsp; Solicitações</span><span>◎ &nbsp; Meu perfil</span></aside>
+                  <div class="rp-main">
+                    <div class="rp-heading"><div><small>BOAS-VINDAS</small><strong>Encontre alimentos disponíveis</strong></div><span>Buscar doações</span></div>
+                    <div class="rp-stats"><div><small>Doações disponíveis</small><b>12</b></div><div><small>Solicitações enviadas</small><b>04</b></div></div>
+                    <div class="rp-offers"><div><i class="rp-food rp-food-one">🥬</i><span><b>Hortifruti</b><small>Alimentos variados</small></span><em>Disponível</em></div><div><i class="rp-food rp-food-two">🍞</i><span><b>Padaria</b><small>Produtos para doação</small></span><em>Disponível</em></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>02 — PROJETO ACADÊMICO · FULL STACK</span><span class="project-status"><i></i> Front-end publicado</span></div>
+              <h3>RedePratos <span>— Plataforma de doação de alimentos</span></h3>
+              <p>Plataforma que aproxima doadores de instituições sociais para reduzir o desperdício de alimentos. Atuei no desenvolvimento de fluxos de cadastro de alimentos, publicação de doações e gerenciamento de solicitações, com API REST e MySQL.</p>
+              <div class="tag-list"><span>Node.js</span><span>Express</span><span>MySQL</span><span>React</span><span>Vite</span></div>
+              <div class="project-links"><a href="https://rede-pratos.vercel.app/" target="_blank" rel="noreferrer">Ver aplicação <span>↗</span></a><a href="https://github.com/lucasknohara/RedePratos" target="_blank" rel="noreferrer" class="secondary-project-link">Ver código <span>↗</span></a></div>
             </div>
           </article>
 
@@ -139,11 +176,25 @@
               <span class="visual-corner">EM DESENVOLVIMENTO ↗</span>
             </div>
             <div class="project-info">
-              <div class="project-meta"><span>02 — PROJETO PESSOAL</span><span class="project-status status-progress"><i></i> Em evolução</span></div>
+              <div class="project-meta"><span>03 — PROJETO PESSOAL</span><span class="project-status status-progress"><i></i> Em evolução</span></div>
               <h3>Biblioteca API</h3>
-              <p>API para consulta de livros e controle de empréstimos e devoluções, com validações e responsabilidades separadas em camadas.</p>
-              <div class="tag-list"><span>Node.js</span><span>Express</span><span>MySQL</span></div>
+              <p>API para consulta de livros e controle de empréstimos e devoluções, com validações de regras de negócio, consultas SQL e operações com transações.</p>
+              <div class="tag-list"><span>Node.js</span><span>Express</span><span>MySQL</span><span>Testes</span></div>
               <div class="project-links"><a href="https://github.com/lucasknohara/Biblioteca" target="_blank" rel="noreferrer">Acompanhar no GitHub <span>↗</span></a><span class="project-arrow" aria-hidden="true">↗</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-pingo">
+              <span class="preview-label">IDENTIDADE DO PROJETO</span>
+              <img src="img/pingo.png" alt="Logo do projeto PINGO, sistema de quadras">
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>04 — PROJETO ACADÊMICO</span><span class="project-status"><i></i> Projeto desenvolvido</span></div>
+              <h3>PINGO <span>— Sistema de aluguel de quadras</span></h3>
+              <p>API REST para gerenciamento de quadras e agendamentos, com rotas, controllers, models e integração com MySQL. O projeto também envolveu integração com API externa de pagamento e tratamento das respostas do fluxo de QR Code.</p>
+              <div class="tag-list"><span>Node.js</span><span>Express</span><span>MySQL</span><span>API REST</span></div>
+              <div class="project-links"><a href="https://github.com/lucasknohara/PINGO" target="_blank" rel="noreferrer">Ver código no GitHub <span>↗</span></a><span class="project-arrow" aria-hidden="true">↗</span></div>
             </div>
           </article>
 
@@ -153,11 +204,12 @@
               <div class="eco-window"><img src="img/ecoTrend.png" alt="Captura da página inicial do e-commerce EcoTrend"></div>
             </div>
             <div class="project-info">
-              <div class="project-meta"><span>03 — FRONT-END</span><span class="project-status"><i></i> Projeto acadêmico</span></div>
+              <div class="project-meta"><span>05 — FRONT-END</span><span class="project-status"><i></i> Projeto acadêmico</span></div>
               <h3>EcoTrend</h3>
               <p>E-commerce de ecobags com catálogo, filtros por categoria e preço, carrinho persistido e checkout com validação.</p>
               <div class="tag-list"><span>React</span><span>JavaScript</span><span>Vite</span><span>localStorage</span></div>
-              <div class="project-links"><a href="https://ecomerce-chi-ashy.vercel.app/" target="_blank" rel="noreferrer">Ver aplicação <span>↗</span></a><a href="https://github.com/lucasknohara/Ecomerce" target="_blank" rel="noreferrer" class="secondary-project-link">Ver Código <span>↗</span></a></div>
+              <div class="project-links"><a href="https://ecomerce-chi-ashy.vercel.app/" target="_blank" rel="noreferrer">Ver aplicação <span>↗</span></a><a href="https://github.com/lucasknohara/Ecomerce" target="_blank" rel="noreferrer" class="secondary-project-link">Ver código <span>↗</span></a></div>
+            </div>
           </article>
 
           <article class="project-card project-wide reveal">
@@ -166,11 +218,11 @@
               <img src="img/sep.png" alt="Captura da página inicial do projeto SEP, voltado aos estudos">
             </div>
             <div class="project-info">
-              <div class="project-meta"><span>04 — PROJETO ACADÊMICO</span><span class="project-status"><i></i> Protótipo web</span></div>
+              <div class="project-meta"><span>06 — PROJETO ACADÊMICO</span><span class="project-status"><i></i> Protótipo web</span></div>
               <h3>StudyLens / SEP</h3>
               <p>Protótipo web com telas responsivas para apresentar uma proposta de melhoria da segurança escolar, com persistência local.</p>
               <div class="tag-list"><span>React</span><span>JavaScript</span><span>localStorage</span></div>
-              <div class="project-links"><a href="https://sep-rose.vercel.app/" target="_blank" rel="noreferrer">Ver aplicação <span>↗</span></a><a href="https://github.com/lucasknohara/SEP" target="_blank" rel="noreferrer" class="secondary-project-link">Ver Código <span>↗</span></a></div>
+              <div class="project-links"><a href="https://sep-rose.vercel.app/" target="_blank" rel="noreferrer">Ver aplicação <span>↗</span></a><a href="https://github.com/lucasknohara/SEP" target="_blank" rel="noreferrer" class="secondary-project-link">Ver código <span>↗</span></a></div>
             </div>
           </article>
         </div>
@@ -188,6 +240,7 @@
             <div class="stack-item"><span class="tech-icon tech-express">ex</span><div><strong>Express</strong><small>Rotas, controllers e services</small></div></div>
             <div class="stack-item"><span class="tech-icon tech-mysql">My</span><div><strong>MySQL / SQL</strong><small>Consultas, JOIN e modelagem</small></div></div>
             <div class="stack-item"><span class="tech-icon tech-api">&lt; &gt;</span><div><strong>APIs REST</strong><small>CRUD, status HTTP e JSON</small></div></div>
+            <div class="stack-item"><span class="tech-icon tech-api">JWT</span><div><strong>Autenticação</strong><small>JWT e proteção de rotas</small></div></div>
           </div>
         </div>
         <div class="stack-secondary reveal">
